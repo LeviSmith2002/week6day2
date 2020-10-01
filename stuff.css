@@ -1,0 +1,23 @@
+body {
+    background: #dfdfdf;
+}
+#row1, #row2, #row3, #row4 {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+.boxes {
+    background: #1f1f1f;
+    width: 95px;
+    height: 95px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.clicked {
+    background: #7f7f7f;
+}
